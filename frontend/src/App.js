@@ -1,16 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Home } from './Components/Home/Home';
+import { Contact } from './Components/Contact/Contact';
+import About from './Components/About/About';
+import NotificationBanner from './Components/Header/Head';
+import Navbar from './Components/Header/Nabvar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold mb-4">Hello, Tailwind CSS!</h1>
-        <p className="text-gray-700">This is a simple example of using Tailwind CSS in a React project.</p>
-      </div>
+    <div>
+      <NotificationBanner/>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
-
 
 export default App;
