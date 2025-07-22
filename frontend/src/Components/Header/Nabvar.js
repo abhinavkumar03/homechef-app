@@ -26,7 +26,7 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center text-base justify-center">
           <div className="relative">
             <button
-              className="mr-5 text-2xl text-white hover:text-orange-500 hover:underline flex items-center"
+              className="mr-5 text-white hover:text-orange-500 hover:underline flex items-center"
               onClick={toggleDropdown}
             >
               Our Services
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <hr />
                 <Link
                   to="/one-time-cook"
-                  className="px-4 py-2 block text-lg font-bold hover:text-orange-500"
+                  className="px-4 py-2 block font-bold hover:text-orange-500"
                 >
                   Chiefit: One Time Cook
                   <FaChevronRight className="ml-2" />
@@ -54,27 +54,32 @@ const Navbar = () => {
                 <hr />
                 <Link
                   to="/chef-for-party"
-                  className="px-4 py-2 block text-lg font-bold hover:text-orange-500"
+                  className="px-4 py-2 block font-bold hover:text-orange-500"
                 >
                   Chef for Party
+                  <FaChevronRight className="ml-2" />
+                </Link>
+                <hr />
+                <Link
+                  to="/join-chefkart"
+                  className="px-4 py-2 block font-bold hover:text-orange-500"
+                >
+                  ChefKart से जुड़ें
                   <FaChevronRight className="ml-2" />
                 </Link>
               </div>
             )}
           </div>
-          <Link to="/join-chefkart" className="mr-5 text-2xl text-white hover:underline">
-            ChefKart से जुड़ें
-          </Link>
-          <Link to="/chef-search" className="mr-5 text-2xl text-white hover:underline">
+          <Link to="/chef-search" className="mr-5 text-white hover:underline">
             Cooks Near Me
           </Link>
           <Link to="/contact">
-          <button className="text-white text-2xl bg-orange-500 py-2 px-6 rounded-lg hover:bg-orange-600">
+          <button className="text-white bg-orange-500 py-2 px-6 rounded-lg hover:bg-orange-600">
             Contact Us
           </button>
           </Link>
           <Link to="/register-chef">
-          <button className="text-white text-2xl  py-2 px-6 rounded-lg ">
+          <button className="text-white  py-2 px-6 rounded-lg ">
             Registration as the chef
           </button>
           </Link>

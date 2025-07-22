@@ -5,6 +5,7 @@ import { Contact } from './Components/Contact/Contact';
 import About from './Components/About/About';
 import NotificationBanner from './Components/Header/Head';
 import Navbar from './Components/Header/Nabvar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
