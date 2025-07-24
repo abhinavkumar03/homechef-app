@@ -7,7 +7,7 @@ import NotificationBanner from './Components/Header/Head';
 import Navbar from './Components/Header/Nabvar';
 import Footer from './Components/Footer/Footer';
 import ChefConnection from './Components/ChefConnection/ChefConnection';
-import { Month } from './Components/CookForAmonth/Month';
+import Month from './Components/CookForAmonth/Month';
 import { OneTime } from './Components/OneTimeCook/OneTime';
 import { Chef } from './Components/Chefforparty/Chef';
 
