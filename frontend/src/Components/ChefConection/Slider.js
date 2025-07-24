@@ -25,16 +25,16 @@ export default function SimpleSlider() {
 
       <Slider {...settings}>
         <div>
-          <img src="slider1.png" alt="Slide 1" className="w-full" />
+          <img src="/frontend/public/images/slider1.png" alt="Slide 1" className="w-full" />
         </div>
         <div>
-          <img src="slider2.png" alt="Slide 2" className="w-full" />
+          <img src="/frontend/public/images/slider2.png" alt="Slide 2" className="w-full" />
         </div>
         <div>
-          <img src="slider3.png" alt="Slide 3" className="w-full" />
+          <img src="/frontend/public/images/slider3.png" alt="Slide 3" className="w-full" />
         </div>
         <div>
-          <img src="slider4.png" alt="Slide 4" className="w-full" />
+          <img src="/frontend/public/images/slider4.png" alt="Slide 4" className="w-full" />
         </div>
       </Slider>
     </div>
