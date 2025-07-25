@@ -5,7 +5,7 @@ const Carousel1 = () => {
     {
       title: "Trusted By 10K+ Households To Hire a Cook ",
       description: "Professional & background verified cook for a month for you to enjoy home-cooked food every day  .",
-      bgImage: "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FJoin_as_chef_hero_banner_01_f31e87e92e.webp&w=1920&q=75",
+      bgImage: "https://thechefkart.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fchefkart-strapi-media%2FChefit_Hero_banner_f573fdf12c.webp&w=1920&q=75",
     },
     
   ];
