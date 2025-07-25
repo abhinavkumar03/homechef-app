@@ -5,27 +5,27 @@ const cardData = [
   {
     id: 1,
    
-    title: "30 Days of Assured Service",
-    description:"Free substitute cook or service extension in case of leaves.",
-    image: "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/30_days_assured_1aa2f3eb64.svg",
+    title: "Tailored to Your Taste",
+    description:"Food prepared according to your taste and preferences.",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/tailored_to_taste_33cb681b66.svg",
   },
   {
     id: 2,
     title: "Trained & Verified Cooks",
     description:"Professionally trained & background verified cooks for quality service.",
-    image: "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FGroup_625783_1_16e923de80.png&w=1920&q=75",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/professional_cooks_ec13508556.svg"
   },
   {
     id: 3,
-    title: "Effortless Replacements",
-    description:"One free, no-questions-asked cook replacement..",
-    image: "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/effortless_ae968a4dea.svg",
+    title: "Healthy & Hygienic Food",
+    description:"Healthy food cooked in your kitchen with utmost hygiene.",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/healthy_hygienic_a9878d9090.svg",
   },
   {
     id: 4,
     title: "Quick Service",
     description:"Find a skilled cook for your kitchen in as little as 24 hours.",
-    image: "https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2Ftime_management_4_2_20dc3c1815.png&w=1920&q=75",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/timely_service_3a6f9d9ebe.svg",
   },
 ];
 
