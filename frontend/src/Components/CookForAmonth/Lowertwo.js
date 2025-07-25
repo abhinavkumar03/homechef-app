@@ -14,7 +14,7 @@ const Lower2 = () => {
       
 
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center rounded" alt="hero" src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FSubscription_banner_02_1_f9ff5bf256.webp&w=1920&q=75"/>
+      <img className="object-cover object-center rounded" alt="hero" src="https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_23_be73f77f6f.png"/>
     </div>
   </div>
 </section>
