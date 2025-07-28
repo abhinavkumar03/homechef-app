@@ -7,25 +7,25 @@ const cardData = [
    
     title: "Healthy & Hygienic Food",
     description:"Healthy food cooked in your kitchen with utmost hygiene..",
-    image: "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/healthy_hygienic_a9878d9090.svg",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/healthy_hygienic_a9878d9090.svg",
   },
   {
     id: 2,
     title: "Tailored to Your Taste",
     description:"Food prepared according to your taste and preferences.",
-    image: "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/tailored_to_taste_33cb681b66.svg",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/tailored_to_taste_33cb681b66.svg",
   },
   {
     id: 3,
     title: "Trained & Verified Cooks",
     description:"Professionally trained & background verified cooks for quality service.",
-    image: "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/professional_cooks_ec13508556.svg",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/professional_cooks_ec13508556.svg",
   },
   {
     id: 4,
     title: "Quick Service",
     description:"Assured cook arrival within 60 minutes of booking",
-    image: "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/timely_service_3a6f9d9ebe.svg",
+    image: "https://storage.googleapis.com/chefkart-strapi-media/timely_service_3a6f9d9ebe.svg",
   },
 ];
 
