@@ -10,7 +10,7 @@ const Lower5 = () => {
           </h2>
 
           <div className="md:w-3/5 md:pl-6 mt-4 md:mt-0">
-            <p className="leading-relaxed mt-14 text-2xl text-black text-center md:text-left">
+            <p className="leading-relaxed text-2xl text-black text-center md:text-left">
               Enjoy your favourite comfort food cooked in your kitchen without burning your wallets. Get a cook for a one-time meal at an affordable price.
             </p>
           </div>
