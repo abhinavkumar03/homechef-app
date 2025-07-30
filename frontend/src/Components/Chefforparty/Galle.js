@@ -7,22 +7,25 @@ const GalleryWithState = () => {
   const [zoomedIndex, setZoomedIndex] = useState(0);
 
   const images = [
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_25_6ed7e4df8e.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_24_9f0f37936a.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_22_6032e4cfba.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_10_5ddf0b07ef.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_09_40fd87e1bd.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_21_c77b00e93e.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_20_fb2b9b8032.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_18_db483bd088.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_17_c2beda679c.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_16_1c53d90992.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_15_0e982c7e24.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_14_2f200a48bb.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_13_1635e91993.png",
-    "https://chefkart-strapi-media.s3.ap-south-1.amazonaws.com/rezize_3by2_12_bf6aa54e87.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_05_56785e7856.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_04_24e9f6a36d.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_03_980b84a7ff.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_25_6ed7e4df8e.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_24_9f0f37936a.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_23_be73f77f6f.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_22_6032e4cfba.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_10_5ddf0b07ef.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_09_40fd87e1bd.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_21_c77b00e93e.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_20_fb2b9b8032.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_18_db483bd088.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_17_c2beda679c.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_15_0e982c7e24.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_14_2f200a48bb.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_08_852bd73dec.png",
+    "https://storage.googleapis.com/chefkart-strapi-media/rezize_3by2_07_dd8dd8a4b0.png",
   ];
-
+  
   const settings = {
     slidesToShow: 3, // Show 3 images at once
     slidesToScroll: 1, // Scroll one image at a time
