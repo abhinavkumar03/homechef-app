@@ -21,7 +21,7 @@ const Lower4 = () => {
             <img
               alt="ecommerce"
               className="lg:w-1/2 w-full h-64 lg:h-auto object-cover object-center rounded"
-              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2Fcook_1_3efd7cf8b6_71550458c9.webp&w=1920&q=75"
+              src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fchefkart-strapi-media%2Fcook_1_3efd7cf8b6_71550458c9.webp&w=1920&q=75"
             />
           </div>
         </div>
