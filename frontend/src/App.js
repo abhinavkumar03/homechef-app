@@ -3,6 +3,7 @@ import { Suspense, lazy } from "react";
 import NotificationBanner from "./Components/Header/Head";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Header/Navbar";
+import Testi from "./Components/Testimonial/Testi";
 
 // Lazy Loading Components
 const Home = lazy(() => import("./Components/Home/Home"));
@@ -22,6 +23,7 @@ const App = () => {
     { path: "cook-for-month", element: <Month /> },
     { path: "one-time-cook", element: <OneTime /> },
     { path: "chef-for-party", element: <Chef /> },
+    { path: "testimonial", element: <Testi /> },
   ];
 
   return (
