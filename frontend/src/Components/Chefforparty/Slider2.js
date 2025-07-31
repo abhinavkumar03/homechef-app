@@ -8,7 +8,7 @@ const Carousel2 = () => {
       <div
         className="w-full h-full flex items-center text-white  bg-cover bg-center transition-all duration-500"
         style={{
-          backgroundImage: 'url("https://awgprivatechefs.com/wp-content/uploads/2021/05/nsplsh_b86635b484d2489d8e1d23806a8409de-mv2.jpg")'
+          backgroundImage: 'url("https://thechefkart.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fchefkart-strapi-media%2FWebsite_banner_01_web_1_40ea9de1d0.webp&w=1920&q=75")'
         }}
         
       >
